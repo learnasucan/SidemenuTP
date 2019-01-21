@@ -16,6 +16,14 @@
 		B091816E217D82FD000EC611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B091816C217D82FD000EC611 /* LaunchScreen.storyboard */; };
 		B0918179217D82FE000EC611 /* TestIQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0918178217D82FE000EC611 /* TestIQTests.swift */; };
 		B0918184217D82FE000EC611 /* TestIQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0918183217D82FE000EC611 /* TestIQUITests.swift */; };
+		B0969081219EA00200CA2EF4 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096907E219EA00100CA2EF4 /* UITextField+fixCaretPosition.swift */; };
+		B0969082219EA00200CA2EF4 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096907F219EA00100CA2EF4 /* SkyFloatingLabelTextField.swift */; };
+		B0969083219EA00200CA2EF4 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0969080219EA00100CA2EF4 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		B0BD79B8218B3535000BDB0E /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD79B7218B3535000BDB0E /* RedViewController.swift */; };
+		B0BD79BA218B356D000BDB0E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD79B9218B356D000BDB0E /* GreenViewController.swift */; };
+		B0BD79BC218B357F000BDB0E /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD79BB218B357F000BDB0E /* YellowViewController.swift */; };
+		B0BD79BE218B3595000BDB0E /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD79BD218B3595000BDB0E /* BlueViewController.swift */; };
+		B0BD79C0218B35A8000BDB0E /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD79BF218B35A8000BDB0E /* GrayViewController.swift */; };
 		E2B13EC0AB6AF7DC52D31416 /* Pods_TestIQUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0591AD2C5D8C7E68D4129F33 /* Pods_TestIQUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +65,14 @@
 		B091817F217D82FE000EC611 /* TestIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0918183217D82FE000EC611 /* TestIQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIQUITests.swift; sourceTree = "<group>"; };
 		B0918185217D82FE000EC611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B096907E219EA00100CA2EF4 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		B096907F219EA00100CA2EF4 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		B0969080219EA00100CA2EF4 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		B0BD79B7218B3535000BDB0E /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		B0BD79B9218B356D000BDB0E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		B0BD79BB218B357F000BDB0E /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		B0BD79BD218B3595000BDB0E /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		B0BD79BF218B35A8000BDB0E /* GrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 		D243A7BB56DC468F03224A68 /* Pods-TestIQUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIQUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestIQUITests/Pods-TestIQUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5268E7EF1BB43BBDE870110 /* Pods-TestIQTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIQTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestIQTests/Pods-TestIQTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,12 +143,18 @@
 		B0918162217D82F8000EC611 /* TestIQ */ = {
 			isa = PBXGroup;
 			children = (
+				B096907D219E9FDB00CA2EF4 /* Utilities */,
 				B0918163217D82F8000EC611 /* AppDelegate.swift */,
 				B0918165217D82F8000EC611 /* ViewController.swift */,
 				B0918167217D82F8000EC611 /* Main.storyboard */,
 				B091816A217D82FD000EC611 /* Assets.xcassets */,
 				B091816C217D82FD000EC611 /* LaunchScreen.storyboard */,
 				B091816F217D82FD000EC611 /* Info.plist */,
+				B0BD79B7218B3535000BDB0E /* RedViewController.swift */,
+				B0BD79B9218B356D000BDB0E /* GreenViewController.swift */,
+				B0BD79BB218B357F000BDB0E /* YellowViewController.swift */,
+				B0BD79BD218B3595000BDB0E /* BlueViewController.swift */,
+				B0BD79BF218B35A8000BDB0E /* GrayViewController.swift */,
 			);
 			path = TestIQ;
 			sourceTree = "<group>";
@@ -153,6 +175,16 @@
 				B0918185217D82FE000EC611 /* Info.plist */,
 			);
 			path = TestIQUITests;
+			sourceTree = "<group>";
+		};
+		B096907D219E9FDB00CA2EF4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B096907F219EA00100CA2EF4 /* SkyFloatingLabelTextField.swift */,
+				B0969080219EA00100CA2EF4 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				B096907E219EA00100CA2EF4 /* UITextField+fixCaretPosition.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		DA58BDE1E41B43CAEABE4B5A /* Frameworks */ = {
@@ -301,17 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestIQ/Pods-TestIQ-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,15 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestIQUITests-checkManifestLockResult.txt",
 			);
@@ -345,15 +371,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestIQ-checkManifestLockResult.txt",
 			);
@@ -367,15 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestIQTests-checkManifestLockResult.txt",
 			);
@@ -391,8 +409,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BD79BA218B356D000BDB0E /* GreenViewController.swift in Sources */,
+				B0969083219EA00200CA2EF4 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				B0918166217D82F8000EC611 /* ViewController.swift in Sources */,
+				B0969081219EA00200CA2EF4 /* UITextField+fixCaretPosition.swift in Sources */,
+				B0BD79C0218B35A8000BDB0E /* GrayViewController.swift in Sources */,
+				B0BD79B8218B3535000BDB0E /* RedViewController.swift in Sources */,
 				B0918164217D82F8000EC611 /* AppDelegate.swift in Sources */,
+				B0969082219EA00200CA2EF4 /* SkyFloatingLabelTextField.swift in Sources */,
+				B0BD79BE218B3595000BDB0E /* BlueViewController.swift in Sources */,
+				B0BD79BC218B357F000BDB0E /* YellowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
